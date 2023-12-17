@@ -1,0 +1,70 @@
+@startuml
+class com.example.obfuscatorge.Encoder {
+- Map<Character,String> dictionary
++ String encode(String)
+}
+class com.example.obfuscatorge.MainController {
+- {static} Logger logger
+- List<File> selectedFiles
++ Button fileSelectionButton
++ Button obfuscationButton
++ void exit(ActionEvent)
+- void showAlert(String,String,Alert.AlertType)
+- void obfuscateFiles(ActionEvent)
+- void createFile(String,Path)
++ void selectFiles(ActionEvent)
+}
+class com.example.obfuscatorge.Starter {
++ {static} void main(String[])
+}
+class com.example.obfuscatorge.Entities {
++ {static} Pattern MAIN_CLASS_REG_EXP
++ {static} Pattern CLASSES_REG_EXP
++ {static} Pattern METHODS_REG_EXP
++ {static} Pattern VARIABLES_REG_EXP
++ {static} Pattern SINGLE_LINE_COMMENTS_REG_EXP
++ {static} Pattern MULTI_LINE_COMMENTS_REG_EXP
++ {static} Pattern STRING_VALUES_REG_EXP
++ {static} Pattern CHAR_VALUES_REG_EXP
++ {static} Pattern ARGUMENTS_REG_EXP
++ {static} Pattern IMPORTS_REG_EXP
++ {static} Entities MAIN_CLASS
++ {static} Entities CLASSES
++ {static} Entities METHODS
++ {static} Entities VARIABLES
++ {static} Entities COMMENTS
++ {static} Entities STRING_VALUES
++ {static} Entities IMPORTS
+- String name
+- List<Pattern> regularExpressions
++ String getName()
++ List<Pattern> getRegularExpressions()
+}
+class com.example.obfuscatorge.Code {
+- {static} Logger logger
+- Encoder encoder
+- String code
+- Map<String,List<String>> foundEntities
+- String specialReplacementString
++ String getCode()
++ List<String> getMentionsOf(Entities)
++ List<String> getEncodedMentionsOf(Entities)
+- void findAndSave(Entities)
++ void encodeMentionsOf(Entities)
++ void delete(Entities)
++ void conceal(Entities)
++ void reveal(Entities)
+}
+class com.example.obfuscatorge.MainApplication {
++ {static} Stage mainStage
++ void start(Stage)
++ {static} void main(String[])
+}
+class com.example.obfuscatorge.Obfuscator {
+- {static} Logger logger
++ List<String> obfuscate(File)
+}
+
+
+javafx.application.Application <|-- com.example.obfuscatorge.MainApplication
+@enduml

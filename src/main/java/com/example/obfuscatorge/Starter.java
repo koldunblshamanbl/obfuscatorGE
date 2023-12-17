@@ -13,6 +13,8 @@ package com.example.obfuscatorge;
  * since we no longer get the benefit of the java module system."
  *
  * So I have to use this intermediate.
+ *
+ * This solution was offered by Jose Pereda from StackOverflow (https://stackoverflow.com/a/52654791)
  */
 
 public class Starter {

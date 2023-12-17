@@ -94,7 +94,7 @@ public class MainController {
 
                 String message = "Could not read the content of file " + file.getName();
                 showAlert("Error", message, Alert.AlertType.ERROR);
-            } catch (NoSuchElementException e) {
+            } catch (IndexOutOfBoundsException e) {
 
                 // If no name of main class in provided file was found
                 MainController.logger.error("Error while obtaining the name of main Class in file " + file.getName());
@@ -135,9 +135,11 @@ public class MainController {
         // Showing the file chooser dialog and get the selected files
         selectedFiles = fileChooser.showOpenMultipleDialog(MainApplication.mainStage);
 
-        // If files are selected, enabling a button
+        // If files are selected, enabling a button. In other case disable it
         if (selectedFiles != null) {
             obfuscationButton.setDisable(false);
+        } else {
+            obfuscationButton.setDisable(true);
         }
     }
 }
