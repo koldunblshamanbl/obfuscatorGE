@@ -51,6 +51,7 @@ public class MainApplication extends Application {
 
         // Getting path of a main class to define a correct path to configuration file
         String classPath = Starter.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+        System.out.println(classPath);
 
         // Checking whether the main class executed from a jar
         if (classPath.endsWith(".jar")) {

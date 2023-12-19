@@ -97,7 +97,7 @@ public class Code {
             // If method 'findAndSave' wasn't invoked or no entities were found
             if (mentions == null || mentions.isEmpty()) {
                 logger.info(String.format("No mentions of %s to encode", entities.getName()));
-                return;
+                continue;
             }
 
             for (String mention : mentions) {
@@ -127,7 +127,7 @@ public class Code {
                 // If no matches were found in code
                 if (!codeMatcher.find()) {
                     logger.info(String.format("No mentions of %s to delete", entities.getName()));
-                    return;
+                    continue;
                 }
 
                 // Deleting all substrings matching the regular expression of entity
@@ -157,7 +157,7 @@ public class Code {
             // If method 'findAndSave' wasn't invoked or no entities were found
             if (mentions == null || mentions.isEmpty()) {
                 logger.info(String.format("No mentions of %s to conceal", entities.getName()));
-                return;
+                continue;
             }
 
             for (Pattern regExp : entities.getRegularExpressions()) {
@@ -197,7 +197,7 @@ public class Code {
             // If method 'findAndSave' wasn't invoked or no entities were found
             if (mentions == null || mentions.isEmpty()) {
                 logger.info(String.format("No mentions of %s to reveal", entities.getName()));
-                return;
+                continue;
             }
 
             for (String mention : mentions) {
