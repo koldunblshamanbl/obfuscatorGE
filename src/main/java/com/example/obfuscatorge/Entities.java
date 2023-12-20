@@ -15,8 +15,7 @@ public class Entities {
             Pattern.compile("(?<!public\\s)\\b(?:(?:class)|(?:enum)|(?:interface))\\s+" +
                     "([A-Za-z_][A-Za-z0-9_]*)\\b");
     public static final Pattern METHODS_REG_EXP =
-            Pattern.compile("(?<!@Override)\\s+\n+.*\\b[A-Za-z0-9<>]+(?<!new)\\s+(\\w+)" +
-                    "(?<!\\bmain)\\s*\\([^)]*\\)\\s*(?:\\{|;)");
+            Pattern.compile("(?<!@Override)\\s+\\n+.*\\b[A-Za-z0-9<>]+(?<!new|else)\\s+(\\w+)(?<!\\bmain)\\s*\\([^)]*\\)\\s*(?:\\{|;)");
     public static final Pattern VARIABLES_REG_EXP =
             Pattern.compile("(?!.*throws)(?:\\b[A-Za-z0-9\\[\\]<>]+\\s+|\\G(?!^),\\s*)([a-zA-Z_][a-zA-Z0-9_]*)" +
                     "(?:\\s*=\\s*[^,;]+)?(?=(?:\\s*,\\s*|\\s*;))");

@@ -1,496 +1,339 @@
-15:14:52.840 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\MainClass.java
-15:14:52.845 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-15:14:52.845 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-15:14:52.846 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-15:14:52.846 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-15:14:52.847 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-15:14:52.847 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-15:14:52.848 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-15:14:52.848 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-15:14:52.849 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-15:14:52.849 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values to conceal
-15:14:52.850 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-15:14:52.851 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-15:14:52.852 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-15:14:52.854 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-15:14:52.868 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: for
-15:14:52.871 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-15:14:52.873 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-15:14:52.874 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-15:14:52.875 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-15:14:52.877 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-15:14:52.878 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-15:14:52.879 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-15:14:52.880 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-15:14:52.881 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-15:14:52.882 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-15:14:52.882 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-15:14:52.883 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-15:14:52.883 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-15:14:52.883 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-15:14:52.884 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-15:14:52.884 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-15:14:52.885 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-15:14:52.886 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-15:14:52.888 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-15:14:52.888 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-15:14:52.889 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-15:14:52.889 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-15:14:52.889 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-15:14:52.890 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-15:14:52.890 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-15:14:52.890 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-15:14:52.891 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-15:14:52.891 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-15:14:52.891 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-15:14:52.892 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 10
-15:14:52.892 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 5
-15:14:52.892 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: purposes
-15:14:52.893 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: keyword
-15:14:52.893 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-15:14:52.894 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-15:14:52.895 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-15:14:52.896 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-15:14:52.897 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-15:14:52.902 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-15:14:52.905 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-15:14:52.906 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-15:14:52.907 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\MainClass.java
-15:30:29.159 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\MainClass.java
-15:30:29.164 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-15:30:29.164 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-15:30:29.165 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-15:30:29.166 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-15:30:29.166 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-15:30:29.166 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-15:30:29.167 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-15:30:29.167 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-15:30:29.168 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-15:30:29.168 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values to conceal
-15:30:29.169 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-15:30:29.169 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-15:30:29.170 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-15:30:29.173 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-15:30:29.183 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: for
-15:30:29.185 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-15:30:29.186 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-15:30:29.187 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-15:30:29.188 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-15:30:29.188 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-15:30:29.189 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-15:30:29.191 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-15:30:29.192 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-15:30:29.194 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-15:30:29.194 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-15:30:29.194 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-15:30:29.195 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-15:30:29.195 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-15:30:29.195 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-15:30:29.196 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-15:30:29.196 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-15:30:29.196 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-15:30:29.197 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-15:30:29.197 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-15:30:29.198 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-15:30:29.198 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-15:30:29.199 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-15:30:29.201 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-15:30:29.201 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-15:30:29.202 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-15:30:29.202 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-15:30:29.203 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-15:30:29.203 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-15:30:29.204 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-15:30:29.205 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 10
-15:30:29.205 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 5
-15:30:29.205 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: purposes
-15:30:29.206 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: keyword
-15:30:29.206 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-15:30:29.206 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-15:30:29.207 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-15:30:29.208 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-15:30:29.210 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-15:30:29.214 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-15:30:29.218 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-15:30:29.219 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-15:30:29.219 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\MainClass.java
-17:22:39.342 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\MainClass.java
-17:22:39.346 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-17:22:39.347 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-17:22:39.348 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-17:22:39.348 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-17:22:39.348 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-17:22:39.348 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-17:22:39.349 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-17:22:39.349 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-17:22:39.350 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-17:22:39.351 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values to conceal
-17:22:39.351 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-17:22:39.351 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-17:22:39.353 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-17:22:39.356 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-17:22:39.367 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: for
-17:22:39.369 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-17:22:39.370 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-17:22:39.371 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-17:22:39.371 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-17:22:39.373 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-17:22:39.374 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:22:39.375 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-17:22:39.375 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-17:22:39.377 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-17:22:39.378 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-17:22:39.379 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:22:39.379 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-17:22:39.380 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-17:22:39.381 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-17:22:39.381 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-17:22:39.382 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-17:22:39.383 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-17:22:39.383 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-17:22:39.384 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-17:22:39.384 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-17:22:39.385 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-17:22:39.385 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-17:22:39.386 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-17:22:39.387 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-17:22:39.389 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-17:22:39.389 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:22:39.390 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:22:39.390 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-17:22:39.391 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:22:39.391 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 10
-17:22:39.391 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 5
-17:22:39.392 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: purposes
-17:22:39.393 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: keyword
-17:22:39.393 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:22:39.394 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-17:22:39.394 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-17:22:39.395 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-17:22:39.396 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-17:22:39.399 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-17:22:39.401 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-17:22:39.402 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-17:22:39.403 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\MainClass.java
-17:26:28.559 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\MainClass.java
-17:26:28.563 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-17:26:28.563 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-17:26:28.564 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-17:26:28.564 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-17:26:28.565 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-17:26:28.565 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-17:26:28.566 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-17:26:28.566 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-17:26:28.567 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-17:26:28.567 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values to conceal
-17:26:28.567 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-17:26:28.568 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-17:26:28.569 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-17:26:28.572 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-17:26:28.586 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: for
-17:26:28.587 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-17:26:28.588 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-17:26:28.589 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-17:26:28.589 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-17:26:28.590 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-17:26:28.591 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:26:28.592 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-17:26:28.592 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-17:26:28.593 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-17:26:28.594 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-17:26:28.594 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:26:28.595 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-17:26:28.595 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-17:26:28.596 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-17:26:28.596 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-17:26:28.597 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-17:26:28.597 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-17:26:28.597 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-17:26:28.598 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-17:26:28.598 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-17:26:28.598 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-17:26:28.599 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-17:26:28.599 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-17:26:28.599 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-17:26:28.600 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-17:26:28.601 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:26:28.603 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:26:28.604 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-17:26:28.604 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:26:28.604 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 10
-17:26:28.605 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: 5
-17:26:28.605 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: purposes
-17:26:28.605 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: keyword
-17:26:28.606 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:26:28.606 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-17:26:28.607 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-17:26:28.608 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-17:26:28.609 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-17:26:28.614 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-17:26:28.615 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-17:26:28.617 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-17:26:28.618 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\MainClass.java
-17:58:28.118 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\MainClass.java
-17:58:28.122 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-17:58:28.123 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-17:58:28.124 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-17:58:28.124 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-17:58:28.124 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-17:58:28.125 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-17:58:28.125 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-17:58:28.125 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-17:58:28.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-17:58:28.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values have been concealed
-17:58:28.127 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Comments have been deleted
-17:58:28.127 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-17:58:28.129 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-17:58:28.132 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-17:58:28.144 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-17:58:28.145 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-17:58:28.145 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-17:58:28.147 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-17:58:28.148 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-17:58:28.149 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:58:28.149 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-17:58:28.150 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-17:58:28.151 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-17:58:28.152 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-17:58:28.152 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:58:28.153 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-17:58:28.153 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-17:58:28.154 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-17:58:28.155 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-17:58:28.155 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-17:58:28.155 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-17:58:28.156 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-17:58:28.158 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-17:58:28.159 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-17:58:28.159 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-17:58:28.160 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-17:58:28.160 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-17:58:28.161 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-17:58:28.161 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-17:58:28.162 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:58:28.162 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:58:28.163 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-17:58:28.163 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:58:28.164 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:58:28.164 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-17:58:28.165 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-17:58:28.165 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-17:58:28.166 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-17:58:28.168 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-17:58:28.170 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-17:58:28.171 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-17:58:28.174 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\MainClass.java
-17:20:21.501 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\CodeForTest.java
-17:20:21.505 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-17:20:21.505 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-17:20:21.506 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-17:20:21.507 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-17:20:21.507 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-17:20:21.507 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-17:20:21.508 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-17:20:21.508 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-17:20:21.509 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-17:20:21.509 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values have been concealed
-17:20:21.510 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Comments have been deleted
-17:20:21.510 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-17:20:21.511 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-17:20:21.514 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-17:20:21.526 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-17:20:21.527 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-17:20:21.527 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-17:20:21.528 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-17:20:21.528 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-17:20:21.529 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:20:21.530 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-17:20:21.531 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-17:20:21.531 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-17:20:21.532 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-17:20:21.533 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:20:21.533 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-17:20:21.533 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-17:20:21.534 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-17:20:21.534 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-17:20:21.534 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-17:20:21.536 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-17:20:21.537 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-17:20:21.537 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-17:20:21.537 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-17:20:21.538 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-17:20:21.539 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-17:20:21.539 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-17:20:21.540 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-17:20:21.540 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-17:20:21.541 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:20:21.541 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:20:21.542 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-17:20:21.543 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:20:21.543 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:20:21.543 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-17:20:21.544 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-17:20:21.545 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-17:20:21.546 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-17:20:21.550 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-17:20:21.551 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-17:20:21.554 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-17:20:21.554 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\CodeForTest.java
-17:20:23.452 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\CodeForTest.java
-17:20:23.453 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-17:20:23.455 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-17:20:23.455 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-17:20:23.456 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-17:20:23.456 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-17:20:23.457 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-17:20:23.457 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-17:20:23.458 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-17:20:23.458 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-17:20:23.459 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values have been concealed
-17:20:23.460 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Comments have been deleted
-17:20:23.460 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-17:20:23.461 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-17:20:23.461 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-17:20:23.462 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-17:20:23.463 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-17:20:23.463 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-17:20:23.463 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-17:20:23.464 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-17:20:23.464 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:20:23.465 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-17:20:23.465 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-17:20:23.466 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-17:20:23.466 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-17:20:23.467 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:20:23.467 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-17:20:23.467 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-17:20:23.468 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-17:20:23.468 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-17:20:23.470 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-17:20:23.470 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-17:20:23.470 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-17:20:23.470 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-17:20:23.471 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-17:20:23.471 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-17:20:23.472 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-17:20:23.473 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-17:20:23.476 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-17:20:23.476 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-17:20:23.476 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:20:23.477 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:20:23.477 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-17:20:23.477 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:20:23.478 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:20:23.478 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-17:20:23.479 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-17:20:23.479 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-17:20:23.480 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-17:20:23.482 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-17:20:23.482 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-17:20:23.483 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-17:20:23.483 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\CodeForTest.java
-17:20:30.377 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\CodeForTest — копия.java
-17:20:30.378 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports has been found
-17:20:30.379 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:20:30.379 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:20:30.380 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports to conceal
-17:20:30.380 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-17:20:30.380 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class has been found
-17:20:30.381 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes has been found
-17:20:30.381 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Methods has been found
-17:20:30.382 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:20:30.383 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:20:30.383 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class to encode
-17:20:30.384 [JavaFX Application Thread] ERROR com.example.obfuscatorge.MainController - Error while obtaining the name of main Class in file CodeForTest — копия.java
-17:23:40.923 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\CodeForTest.java
-17:23:40.927 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
-17:23:40.928 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
-17:23:40.928 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Implementation of the interface method in an anonymous class"
-17:23:40.929 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Hello, World!"
-17:23:40.930 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "example"
-17:23:40.930 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Calling the main method with the field: "
-17:23:40.930 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the anonymous method"
-17:23:40.931 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Execution of the lambda expression (anonymous method)"
-17:23:40.931 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
-17:23:40.932 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values have been concealed
-17:23:40.932 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Comments have been deleted
-17:23:40.933 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: MainClass
-17:23:40.934 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Classes has been found: InterfaceExample
-17:23:40.936 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: MainClass
-17:23:40.948 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: mainMethod
-17:23:40.948 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithAnonymousMethod
-17:23:40.949 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: methodWithLambdaExpression
-17:23:40.950 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: myMethod
-17:23:40.950 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: interfaceMethod
-17:23:40.951 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:23:40.951 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousClass
-17:23:40.952 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainObject
-17:23:40.953 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: x
-17:23:40.954 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: y
-17:23:40.956 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:23:40.956 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: b
-17:23:40.957 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: c
-17:23:40.957 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: m
-17:23:40.957 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: n
-17:23:40.958 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: p
-17:23:40.958 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: myVariable
-17:23:40.959 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: numbers
-17:23:40.959 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: names
-17:23:40.959 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: obj
-17:23:40.960 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: MAX_VALUE
-17:23:40.960 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: i
-17:23:40.960 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: localVar
-17:23:40.961 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: anonymousMethod
-17:23:40.962 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: lambdaExpression
-17:23:40.962 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:23:40.962 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: mainField
-17:23:40.963 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
-17:23:40.963 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: a
-17:23:40.964 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param1
-17:23:40.964 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: param2
-17:23:40.965 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
-17:23:40.965 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Classes have been encoded
-17:23:40.966 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
-17:23:40.970 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
-17:23:40.972 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
-17:23:40.973 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
-17:23:40.973 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\IdeaProjects\template\CodeForTest.java
-17:23:47.183 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\CodeForTest — копия.java
-17:23:47.185 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports has been found
-17:23:47.186 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:23:47.186 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:23:47.186 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports to conceal
-17:23:47.187 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-17:23:47.187 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class has been found
-17:23:47.187 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes has been found
-17:23:47.188 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Methods has been found
-17:23:47.188 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:23:47.188 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:23:47.189 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class to encode
-17:23:47.191 [JavaFX Application Thread] ERROR com.example.obfuscatorge.MainController - Error while obtaining the name of main Class in file CodeForTest — копия.java
-17:23:48.266 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\CodeForTest — копия.java
-17:23:48.266 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports has been found
-17:23:48.267 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:23:48.268 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:23:48.268 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports to conceal
-17:23:48.269 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-17:23:48.269 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class has been found
-17:23:48.269 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes has been found
-17:23:48.270 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Methods has been found
-17:23:48.270 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:23:48.271 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:23:48.271 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class to encode
-17:23:48.271 [JavaFX Application Thread] ERROR com.example.obfuscatorge.MainController - Error while obtaining the name of main Class in file CodeForTest — копия.java
-17:23:55.848 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\IdeaProjects\template\CodeForTest — копия.java
-17:23:55.849 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports has been found
-17:23:55.849 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:23:55.850 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of String Values has been found
-17:23:55.850 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Imports to conceal
-17:23:55.850 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
-17:23:55.851 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class has been found
-17:23:55.851 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes has been found
-17:23:55.852 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Methods has been found
-17:23:55.852 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:23:55.852 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Variables has been found
-17:23:55.853 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Main Class to encode
-17:23:55.853 [JavaFX Application Thread] ERROR com.example.obfuscatorge.MainController - Error while obtaining the name of main Class in file CodeForTest — копия.java
+10:32:34.061 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\Downloads\Main - копия.java
+10:32:34.065 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.apache.poi.ss.usermodel.*;
+10:32:34.066 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+10:32:34.066 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.ChartFactory;
+10:32:34.066 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.ChartPanel;
+10:32:34.067 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.JFreeChart;
+10:32:34.067 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.plot.PlotOrientation;
+10:32:34.067 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.data.category.DefaultCategoryDataset;
+10:32:34.068 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import javax.swing.*;
+10:32:34.068 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.awt.*;
+10:32:34.068 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.FileInputStream;
+10:32:34.068 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.FileOutputStream;
+10:32:34.069 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.IOException;
+10:32:34.069 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
+10:32:34.070 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
+10:32:34.071 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "ИБС-21.xlsx"
+10:32:34.071 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Результат.xlsx"
+10:32:34.072 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Results"
+10:32:34.072 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Анализ успешно выполнен. Результаты сохранены в файле "
+10:32:34.073 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество отличников"
+10:32:34.078 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество хорошистов"
+10:32:34.078 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество троечников"
+10:32:34.079 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество не допущенных"
+10:32:34.079 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Средний балл"
+10:32:34.080 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Максимальная оценка"
+10:32:34.080 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Отлично"
+10:32:34.080 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Отлично"
+10:32:34.081 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Хорошо"
+10:32:34.081 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Хорошо"
+10:32:34.081 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Удовлетворительно"
+10:32:34.082 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Удовлетворительно"
+10:32:34.082 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Не допущен"
+10:32:34.082 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Не допущен"
+10:32:34.083 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Статистика оценок"
+10:32:34.083 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Оценка"
+10:32:34.084 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество"
+10:32:34.084 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Статистика оценок"
+10:32:34.085 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
+10:32:34.086 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values have been concealed
+10:32:34.087 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
+10:32:34.087 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
+10:32:34.087 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Comments have been deleted
+10:32:34.088 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: Main
+10:32:34.091 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes has been found
+10:32:34.102 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: analyzeData
+10:32:34.107 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: writeStatistics
+10:32:34.108 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: if
+10:32:34.108 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: if
+10:32:34.109 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: if
+10:32:34.110 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: createChart
+10:32:34.110 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: if
+10:32:34.110 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: if
+10:32:34.111 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: if
+10:32:34.112 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: inputFilePath
+10:32:34.112 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputFilePath
+10:32:34.113 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: fis
+10:32:34.113 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: workbook
+10:32:34.113 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: sheet
+10:32:34.114 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:32:34.115 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputWorkbook
+10:32:34.115 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:32:34.116 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: fos
+10:32:34.116 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:32:34.117 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: nameCell
+10:32:34.117 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: ratingCell
+10:32:34.118 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:32:34.118 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:32:34.119 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:32:34.119 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:32:34.119 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentCount
+10:32:34.120 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodCount
+10:32:34.122 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryCount
+10:32:34.122 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failCount
+10:32:34.122 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: totalScore
+10:32:34.123 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: studentCount
+10:32:34.123 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: maxRating
+10:32:34.123 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentStudents
+10:32:34.123 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodStudents
+10:32:34.124 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryStudents
+10:32:34.124 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failStudents
+10:32:34.124 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:32:34.125 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:32:34.125 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: averageScore
+10:32:34.125 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: headerRow
+10:32:34.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: dataRow
+10:32:34.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rowNum
+10:32:34.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:32:34.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:32:34.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:32:34.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:32:34.126 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentCount
+10:32:34.127 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodCount
+10:32:34.127 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryCount
+10:32:34.127 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failCount
+10:32:34.128 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:32:34.128 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: dataset
+10:32:34.129 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: barChart
+10:32:34.129 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: frame
+10:32:34.129 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: chartPanel
+10:32:34.130 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
+10:32:34.130 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: e
+10:32:34.131 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: sheet
+10:32:34.132 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:32:34.132 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:32:34.133 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: student
+10:32:34.134 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:32:34.135 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:32:34.135 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:32:34.136 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:32:34.136 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: student
+10:32:34.137 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
+10:32:34.139 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes to encode
+10:32:34.140 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
+10:32:34.148 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
+10:32:34.151 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
+10:32:34.155 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
+10:32:34.156 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\Downloads\Main - копия.java
+10:42:49.629 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\Downloads\Main - копия.java
+10:42:49.633 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.apache.poi.ss.usermodel.*;
+10:42:49.633 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+10:42:49.633 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.ChartFactory;
+10:42:49.634 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.ChartPanel;
+10:42:49.634 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.JFreeChart;
+10:42:49.634 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.plot.PlotOrientation;
+10:42:49.634 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.data.category.DefaultCategoryDataset;
+10:42:49.635 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import javax.swing.*;
+10:42:49.635 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.awt.*;
+10:42:49.635 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.FileInputStream;
+10:42:49.636 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.FileOutputStream;
+10:42:49.636 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.IOException;
+10:42:49.636 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
+10:42:49.637 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
+10:42:49.638 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "ИБС-21.xlsx"
+10:42:49.638 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Результат.xlsx"
+10:42:49.638 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Results"
+10:42:49.638 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Анализ успешно выполнен. Результаты сохранены в файле "
+10:42:49.639 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество отличников"
+10:42:49.639 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество хорошистов"
+10:42:49.640 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество троечников"
+10:42:49.640 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество не допущенных"
+10:42:49.640 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Средний балл"
+10:42:49.641 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Максимальная оценка"
+10:42:49.641 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Отлично"
+10:42:49.642 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Отлично"
+10:42:49.642 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Хорошо"
+10:42:49.642 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Хорошо"
+10:42:49.642 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Удовлетворительно"
+10:42:49.643 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Удовлетворительно"
+10:42:49.643 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Не допущен"
+10:42:49.644 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Не допущен"
+10:42:49.644 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Статистика оценок"
+10:42:49.644 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Оценка"
+10:42:49.644 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество"
+10:42:49.645 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Статистика оценок"
+10:42:49.646 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
+10:42:49.647 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values have been concealed
+10:42:49.648 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
+10:42:49.648 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
+10:42:49.648 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Comments have been deleted
+10:42:49.649 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: Main
+10:42:49.651 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes has been found
+10:42:49.663 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: analyzeData
+10:42:49.668 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: writeStatistics
+10:42:49.670 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: createChart
+10:42:49.672 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: inputFilePath
+10:42:49.672 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputFilePath
+10:42:49.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: fis
+10:42:49.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: workbook
+10:42:49.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: sheet
+10:42:49.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:42:49.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputWorkbook
+10:42:49.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:42:49.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: fos
+10:42:49.674 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:42:49.674 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: nameCell
+10:42:49.674 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: ratingCell
+10:42:49.675 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:42:49.675 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:42:49.675 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:42:49.676 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:42:49.676 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentCount
+10:42:49.676 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodCount
+10:42:49.677 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryCount
+10:42:49.677 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failCount
+10:42:49.677 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: totalScore
+10:42:49.677 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: studentCount
+10:42:49.677 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: maxRating
+10:42:49.678 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentStudents
+10:42:49.678 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodStudents
+10:42:49.678 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryStudents
+10:42:49.678 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failStudents
+10:42:49.678 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:42:49.679 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:42:49.679 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: averageScore
+10:42:49.679 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: headerRow
+10:42:49.680 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: dataRow
+10:42:49.680 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rowNum
+10:42:49.680 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:42:49.681 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:42:49.681 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:42:49.681 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:42:49.681 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentCount
+10:42:49.682 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodCount
+10:42:49.682 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryCount
+10:42:49.682 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failCount
+10:42:49.682 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:42:49.682 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: dataset
+10:42:49.683 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: barChart
+10:42:49.683 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: frame
+10:42:49.683 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: chartPanel
+10:42:49.683 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
+10:42:49.684 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: e
+10:42:49.684 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: sheet
+10:42:49.684 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:42:49.684 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:42:49.685 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: student
+10:42:49.685 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:42:49.685 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:42:49.685 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:42:49.686 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:42:49.686 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: student
+10:42:49.687 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
+10:42:49.687 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes to encode
+10:42:49.688 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
+10:42:49.697 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
+10:42:49.700 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
+10:42:49.704 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
+10:42:49.705 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\Downloads\Main - копия.java
+10:43:09.626 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Working with C:\Users\anton\Downloads\Main - копия.java
+10:43:09.630 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.apache.poi.ss.usermodel.*;
+10:43:09.630 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+10:43:09.630 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.ChartFactory;
+10:43:09.631 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.ChartPanel;
+10:43:09.631 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.JFreeChart;
+10:43:09.631 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.chart.plot.PlotOrientation;
+10:43:09.631 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import org.jfree.data.category.DefaultCategoryDataset;
+10:43:09.632 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import javax.swing.*;
+10:43:09.632 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.awt.*;
+10:43:09.632 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.FileInputStream;
+10:43:09.633 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.FileOutputStream;
+10:43:09.633 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.io.IOException;
+10:43:09.634 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.ArrayList;
+10:43:09.634 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Imports has been found: import java.util.List;
+10:43:09.636 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "ИБС-21.xlsx"
+10:43:09.636 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Результат.xlsx"
+10:43:09.637 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Results"
+10:43:09.641 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Анализ успешно выполнен. Результаты сохранены в файле "
+10:43:09.642 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество отличников"
+10:43:09.642 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество хорошистов"
+10:43:09.643 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество троечников"
+10:43:09.644 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество не допущенных"
+10:43:09.644 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Средний балл"
+10:43:09.645 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Максимальная оценка"
+10:43:09.645 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Отлично"
+10:43:09.646 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Отлично"
+10:43:09.646 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Хорошо"
+10:43:09.646 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Хорошо"
+10:43:09.647 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Удовлетворительно"
+10:43:09.647 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Удовлетворительно"
+10:43:09.649 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Не допущен"
+10:43:09.649 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Не допущен"
+10:43:09.650 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Статистика оценок"
+10:43:09.650 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Оценка"
+10:43:09.651 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Количество"
+10:43:09.651 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of String Values has been found: "Статистика оценок"
+10:43:09.652 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports have been concealed
+10:43:09.653 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values have been concealed
+10:43:09.656 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
+10:43:09.658 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Comments to delete
+10:43:09.659 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Comments have been deleted
+10:43:09.659 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Main Class has been found: Main
+10:43:09.663 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes has been found
+10:43:09.673 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: analyzeData
+10:43:09.679 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: writeStatistics
+10:43:09.681 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Methods has been found: createChart
+10:43:09.682 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: inputFilePath
+10:43:09.682 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputFilePath
+10:43:09.683 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: fis
+10:43:09.684 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: workbook
+10:43:09.684 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: sheet
+10:43:09.684 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:43:09.685 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputWorkbook
+10:43:09.686 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:43:09.687 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: fos
+10:43:09.687 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:43:09.689 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: nameCell
+10:43:09.689 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: ratingCell
+10:43:09.690 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:43:09.690 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:43:09.691 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: students
+10:43:09.691 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:43:09.692 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentCount
+10:43:09.692 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodCount
+10:43:09.692 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryCount
+10:43:09.693 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failCount
+10:43:09.693 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: totalScore
+10:43:09.694 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: studentCount
+10:43:09.694 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: maxRating
+10:43:09.694 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentStudents
+10:43:09.695 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodStudents
+10:43:09.695 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryStudents
+10:43:09.695 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failStudents
+10:43:09.695 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:43:09.696 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:43:09.696 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: averageScore
+10:43:09.696 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: headerRow
+10:43:09.697 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: dataRow
+10:43:09.697 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rowNum
+10:43:09.698 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:43:09.698 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:43:09.698 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:43:09.699 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:43:09.699 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: excellentCount
+10:43:09.699 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: goodCount
+10:43:09.699 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: satisfactoryCount
+10:43:09.700 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: failCount
+10:43:09.700 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: rating
+10:43:09.701 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: dataset
+10:43:09.703 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: barChart
+10:43:09.703 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: frame
+10:43:09.703 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: chartPanel
+10:43:09.704 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: args
+10:43:09.704 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: e
+10:43:09.705 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: sheet
+10:43:09.705 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: row
+10:43:09.706 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: outputSheet
+10:43:09.706 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: student
+10:43:09.707 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:43:09.707 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:43:09.708 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:43:09.708 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: name
+10:43:09.709 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mention of Variables has been found: student
+10:43:09.710 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Main Class have been encoded
+10:43:09.711 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - No mentions of Classes to encode
+10:43:09.711 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Methods have been encoded
+10:43:09.719 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Variables have been encoded
+10:43:09.723 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of Imports has been revealed
+10:43:09.727 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Code - Mentions of String Values has been revealed
+10:43:09.727 [JavaFX Application Thread] INFO  com.example.obfuscatorge.Obfuscator - Done working with C:\Users\anton\Downloads\Main - копия.java
