@@ -11,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
@@ -24,6 +25,7 @@ public class MainController {
     private static final Logger logger = LogManager.getLogger(MainController.class);
 
     // Instance fields
+    private int fileCounter = 2;
     private List<File> selectedFiles = new ArrayList<File>();
     @FXML
     public Button fileSelectionButton;
@@ -74,7 +76,7 @@ public class MainController {
                 List<String> obfuscatedCode = obfuscator.obfuscate(file);
 
                 try {
-                    createFile(obfuscatedCode.get(1), Path.of(file.getParent() + "//" + obfuscatedCode.get(0) + ".java"));
+                    createFile(obfuscatedCode.get(1), file.getParent() + "//" + obfuscatedCode.get(0));
 
                     String message = "Obfuscation of " + file.getName() + " has been completed. " +
                             "Obfuscated file can be found in " + file.getParent();
@@ -109,11 +111,15 @@ public class MainController {
      * Creates file with specified content and path
      *
      * @param content Content
-     * @param path    Path
+     * @param string    String that represents the path
      * @throws IOException Can't create a file
      */
-    private void createFile(String content, Path path) throws IOException {
-        Files.write(path, content.getBytes(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
+    private void createFile(String content, String string) throws IOException {
+        Path path = Path.of(string + ".java");
+        if (Files.exists(path)){
+            path = Path.of(string + fileCounter++ + ".java");
+        }
+        Files.writeString(path, content, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
     }
 
     /**
